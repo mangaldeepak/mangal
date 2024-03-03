@@ -10,7 +10,7 @@ class Car {
   }
   
   const myCar = new Car("Ford", 2014);
-  document.getElementById("demo").innerHTML =
+  document.getElementById("countdown").innerHTML =
   "My car is " + myCar.age() + " years old.";
   
   
