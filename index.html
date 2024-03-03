@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy Birthday!</title>
-    <link rel="stylesheet" href="practice.css">
+    <title>Simple E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div class="container">
-        <header>
-            <h1>Happy Birthday!</h1>
-        </header>
-        <div class="message">
-            <p>
-                “A wish for you on your birthday, whatever you ask may you receive, whatever you seek may you find,
-                whatever you wish may it be fulfilled on your birthday and always. Happy birthday!”
-            </p>
+    <header>
+        <h1>Simple E-Commerce Website</h1>
+    </header>
+    <main>
+        <section id="products">
+            <!-- Product listings will be dynamically added here -->
+        </section>
+        <aside id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cart-items">
+                <!-- Shopping cart items will be dynamically added here -->
+            </ul>
+            <p>Total: $<span id="cart-total">0.00</span></p>
+            <button id="checkout-btn">Checkout</button>
+        </aside>
+    </main>
 
-        </div>
-        <main>
-            <div id="countdown"></div>
-            <div id="birthday-message"></div>
-        </main>
-    </div>
-    <script src="practice.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
