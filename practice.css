@@ -1,34 +1,49 @@
-body, html {
-    margin: 50;
-    padding: 50;
-    height: 100%;
-  }
-  
-  .container {
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 900%;
-  }
-  
-  header {
-    text-align: center;
-  }
-  
-  main {
-    text-align: center;
-    margin-top: 20px;
-  }
-  
-  #birthday-message {
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: bold;
-  }
+    justify-content: space-between;
+    margin: 20px;
+}
 
-  .message{
-    font-size: 650%;
-    color: mediumblue;
+#products, #cart {
+    flex: 1;
+}
 
-  }
+#products {
+    border-right: 1px solid #ccc;
+}
+
+#cart {
+    padding-left: 20px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items li {
+    margin-bottom: 10px;
+}
+
+#checkout-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#checkout-btn:hover {
+    background-color: #0056b3;
+}
